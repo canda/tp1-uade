@@ -1,0 +1,33 @@
+.simon {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.simon .button {
+  display: inline-flex;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.button.red {
+  background-color: red;
+}
+.button.green {
+  background-color: green;
+}
+.button.blue {
+  background-color: blue;
+}
+.button.yellow {
+  background-color: yellow;
+}
