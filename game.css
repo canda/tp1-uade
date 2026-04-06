@@ -56,26 +56,26 @@ main {
 }
 
 .initialAnimation .red {
-  animation: scaleAnimation 1s ease-in-out;
+  animation: initialScaleAnimation 1s ease-in-out;
 }
 
 .initialAnimation .green {
-  animation: scaleAnimation 1s ease-in-out 1s;
+  animation: initialScaleAnimation 1s ease-in-out 1s;
 }
 
 .initialAnimation .yellow {
-  animation: scaleAnimation 1s ease-in-out 2s;
+  animation: initialScaleAnimation 1s ease-in-out 2s;
 }
 
 .initialAnimation .blue {
-  animation: scaleAnimation 1s ease-in-out 3s;
+  animation: initialScaleAnimation 1s ease-in-out 3s;
 }
 
 .active {
-  animation: scaleAnimation 1s ease-in-out;
+  animation: activeScaleAnimation 1s ease-in-out;
 }
 
-@keyframes scaleAnimation {
+@keyframes initialScaleAnimation {
   0% {
     scale: 1;
   }
@@ -87,6 +87,17 @@ main {
   }
 }
 
+@keyframes activeScaleAnimation {
+  0% {
+    scale: 1.2;
+  }
+  50% {
+    scale: 2;
+  }
+  100% {
+    scale: 1;
+  }
+}
 .game-over {
   font-size: 5rem;
   font-family: 'Kalam', cursive;
