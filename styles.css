@@ -11,6 +11,7 @@ body {
 }
 
 header {
+  box-sizing: border-box;
   background-color: #eeeeee;
   padding: 20px;
   text-align: center;
