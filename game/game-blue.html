@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Canda - Juego</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../styles.css" />
     <link rel="stylesheet" href="game.css" />
   </head>
   <body>
@@ -19,17 +19,21 @@
       </nav>
     </header>
 
-    <main class="initialAnimation">
-      <a class="button red" href="./game-red.html"></a>
-      <a class="button green" href="./game-lost.html"></a>
-      <a class="button blue" href="./game-lost.html"></a>
-      <a class="button yellow" href="./game-lost.html"></a>
+    <main>
+      <a class="button red" href="#"></a>
+      <a class="button green" href="#"></a>
+      <a class="button blue active" href="#"></a>
+      <a class="button yellow" href="#"></a>
     </main>
 
     <footer>
       <p>Trabajo Práctico N°1 - Identikit</p>
     </footer>
 
-    <script></script>
+    <script>
+      setTimeout(() => {
+        window.location.href = './game-won.html';
+      }, 1000);
+    </script>
   </body>
 </html>
