@@ -1,0 +1,18 @@
+.aside {
+  display: inline-block;
+  font-size: 1.1rem;
+  width: 24%;
+  vertical-align: top;
+  margin-top: 3rem;
+}
+
+.aside li {
+  list-style-type: none;
+}
+
+.main {
+  display: inline-block;
+  font-size: 1.3rem;
+  width: 74%;
+  text-align: center;
+}
